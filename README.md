@@ -3,10 +3,8 @@ Sistema de Ranking de Jogadores (GUI)
 
 Este é um sistema de ranking de jogadores desenvolvido em Python com uma interface gráfica (GUI) construída com a biblioteca Tkinter. O programa lê os dados dos jogadores a partir de um arquivo CSV, exibe um ranking ordenado pela pontuação e registra quaisquer erros de formatação em um arquivo de log para fácil depuração.
 
-Screenshot da Aplicação
-(Dica: Rode o programa, carregue um arquivo, tire um print da tela principal, salve essa imagem no seu repositório e atualize o caminho abaixo!)
-
 ✨ Funcionalidades
+
 Interface Gráfica Amigável: Não precisa de terminal! Toda a interação é feita através de botões e janelas.
 
 Seleção de Arquivo Interativa: Clique em um botão para abrir o gerenciador de arquivos do seu sistema e selecionar o arquivo .csv com os dados.
@@ -15,7 +13,6 @@ Ranking Visual e Ordenado: Exibe os jogadores em uma tabela clara, ordenados da 
 
 
 Destaque para o Top 3: Os três primeiros colocados são destacados com cores especiais para fácil identificação.
-
 
 Validação de Dados e Log de Erros: Linhas mal formatadas no CSV são ignoradas e registradas no arquivo erros.log, que pode ser visualizado diretamente pela interface.
 
@@ -27,22 +24,24 @@ Python 3.x
 
 Nenhuma biblioteca externa é necessária, pois o programa utiliza apenas módulos padrão do Python (Tkinter, CSV, OS).
 
-Passo a Passo
-Clone o Repositório
+Passo a Passo:
 
-Bash
+Baixe o repositório apertando no botão verde "Code" e "Download ZIP"
 
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
 Prepare seu Arquivo de Dados
+
 Certifique-se de ter um arquivo .csv pronto para ser lido. Veja a seção "Formato do Arquivo CSV" abaixo para mais detalhes.
+(Tem 2 arquivos de exemplos dentro do repositório)
 
 Execute o Programa
 Abra seu terminal na pasta do projeto e execute o seguinte comando:
 
-Bash
+cd ("C:\Users\aluno\Documents\ranking de jogadores") <-- Caminho da pasta que o repostório foi baixado.
+
+Estando dentro da pasta, execute o comando abaixo:
 
 python ranking_gui.py
+
 Use a Aplicação
 
 Clique em 📂 Selecionar Arquivo CSV para carregar seus dados.
@@ -62,11 +61,7 @@ Cada linha subsequente deve conter os dados de um jogador, seguindo a ordem das 
 
 
 Nome (string) 
-
-
 Nível (número inteiro) 
-
-
 Pontuação (número, pode ter casas decimais) 
 
 Exemplo de jogadores.csv válido:
