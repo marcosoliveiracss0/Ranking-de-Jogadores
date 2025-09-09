@@ -26,7 +26,7 @@ Nenhuma biblioteca externa é necessária, pois o programa utiliza apenas módul
 
 Passo a Passo:
 
-Baixe o repositório apertando no botão verde "Code" e "Download ZIP"
+Baixe o repositório apertando no botão verde "Code" e "Download ZIP", depois extraia.
 
 Prepare seu Arquivo de Dados
 
